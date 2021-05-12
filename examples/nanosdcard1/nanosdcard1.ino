@@ -44,7 +44,7 @@ void setup()
   // or the SD library functions will not work. 
   pinMode(SS, OUTPUT);
 
-  if (!SD.begin(17, 14, 12, 15)) {
+  if (!SD.begin(13, 15, 4, 14)) {
     Serial.println("initialization failed!");
     return;
   }
